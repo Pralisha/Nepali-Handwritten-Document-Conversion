@@ -8,7 +8,7 @@ This repository provides an implementation for OCR (Optical Character Recognitio
 1. **Clone the repository**:
 
 ```bash
-   git clone https://github.com/fuseai-fellowship/Nepali-Handwriting-Document-Conversion.git
+   https://github.com/Pralisha/Nepali-Handwritten-Document-Conversion.git
 ```
 2. **Install required libraries:**
 
