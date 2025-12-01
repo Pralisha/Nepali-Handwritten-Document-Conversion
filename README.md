@@ -1,7 +1,15 @@
 # Nepali OCR Implementation
 
-This repository provides an implementation for OCR (Optical Character Recognition) of Nepali handwritten documents using a combination of YOLO for word detection and a fine-tuned TrOCR model for text recognition.
+This repository provides an end-to-end OCR (Optical Character Recognition) system for **Nepali handwritten documents**, using a combination of:
 
+- **YOLO** for word-level detection  
+- **Fine-tuned TrOCR** (VisionEncoderDecoderModel) for handwritten text recognition  
+- A **Streamlit** web application for interactive OCR  
+
+This project was developed as part of the **Fusemachines AI Fellowship 2024**, in collaboration with teammate **Nhujaw Tuladhar**.  
+GitHub: https://github.com/tuladhar07
+
+---
 
 ## Installation
 
@@ -19,6 +27,7 @@ This repository provides an implementation for OCR (Optical Character Recognitio
 
 1. **Download YOLO model and TrOCR checkpoints:**
   - Download the YOLO model (best.pt) and the pre-trained TrOCR model checkpoint directory from (https://drive.google.com/drive/folders/1Gk1zjmod0YzFLSoyaSnuJa6SINAJBhCN?usp=sharing) and place them in the appropriate directories.
+  - Model checkpoints are stored in Google Drive to avoid large repository size.
 
 2. **Update paths:**
   - Open the config.py file and update the folder paths for the YOLO model and TrOCR checkpoints.
